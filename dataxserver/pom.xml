@@ -19,7 +19,7 @@
 
 	<properties>
 		<start-class>com.topcom.DataxserverApplication</start-class>
-		<docker.image.prefix>192.168.1.12:5000</docker.image.prefix>
+		<docker.image.prefix>10.16.0.21:5000</docker.image.prefix>
 	</properties>
 
 	<dependencies>
