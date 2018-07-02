@@ -61,7 +61,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<distributionManagement>
+<!-- 	<distributionManagement>
 		<repository>
 			<id>releases</id>
 			<name>Nexus Release Repository</name>
@@ -72,7 +72,7 @@
 			<name>Nexus Snapshot Repository</name>
 			<url>http://www.limushui.top:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 	<!--<distributionManagement>-->
 	<!--<repository>-->
@@ -93,11 +93,11 @@
     <repositories>
         <repository>
             <id>186</id>
-            <url>http://bjtopcom.xicp.cn:8089/repository/maven-public/</url>
+            <url>http://192.168.0.186:8081/repository/maven-public/</url>
         </repository>
 		<repository>
 			<id>121</id>
-			<url>http://bjtopcom.xicp.cn:8081/nexus/content/repositories/public/</url>
+			<url>http://192.168.0.21:8081/nexus/content/repositories/public/</url>
 		</repository>
     </repositories>
 </project>
